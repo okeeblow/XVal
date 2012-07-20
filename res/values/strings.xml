@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XVal</string>
+    <string name="about">About</string>
+	<string name="aboutText">XVal decodes the "X" value from the Xbox 360\u00AE Dashboard and displays recorded security events.\n\nBrought to you with love by cooltrainer.org.\n\nPlease direct your torrent of complaints to android@cooltrainer.org.\n\nThis application is free software. You can find its source at github.com/okeeblow/XVal</string>
+	<string name="help">Help</string>
+	<string name="helpText">Both the console serial number and \'X\' value are displayed in the Dashboard. Go to Settings \u2192 Console Settings \u2192 System Info to see them. The serial number is also printed on the rear of the case and under the USB flap, but the value on the Dashboard is guaranteed to be correct if the case has been swapped.\n\nRemember, a clean rating in XVal doesn\'t guarantee a console is unbanned! A ban could be in place server-side without an infraction recorded in secdata.bin. If in doubt, perform an Xbox LIVE\u00AE connection test.</string>
+	<string name="license">License</string>
+	<string name="menuabout">About</string>
+	<string name="menuhelp">Help</string>
+	<string name="hintSerial">Serial Number</string>
+	<string name="hintXval">\'X\' Value</string>
+	<string name="presbutan">Check</string>
+	<string name="invalidSerial">Serial number must be twelve numeric digits</string>
+	<string name="invalidXval">\'X\' Value must be sixteen hexadecimal digits, dashes optional</string>
+	<string name="invalidPair">Not a valid serial / XVal pair</string>
+	<string name="clean">Clean</string>
+	<string name="flagged">Flagged</string>
+	<string name="mfgdate">Mfg. Date:</string>
+	<string name="factory">Factory:</string>
+	<string name="thisconsoleis">This console is:</string>
+	<string name="version">Version</string>
+	<string name="ok">OK</string>
+	<string name="weekof">Week of</string>
+</resources>
