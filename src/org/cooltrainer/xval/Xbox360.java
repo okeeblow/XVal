@@ -115,7 +115,7 @@ public class Xbox360 {
 	 * @return			Name of country of manufacture in current Locale.
 	 */
 	public String factoryName() {
-		Locale locale = new Locale(Locale.getDefault().getISO3Language(), factories[factory]);
+		Locale locale = new Locale(Locale.getDefault().getISO3Language(), factory < 10 ? factories[factory] : "");
 		return locale.getDisplayCountry();
 	}
 	
