@@ -66,7 +66,7 @@ public class Xbox360 {
 			 * 0 through 4 == 2010 through 2014
 			 * Hopefully they're done making new 360s by 2015 :V
 			 */
-			this.year = year += (year <= 5) ? 2010 : 2000;
+			this.year = year += (year < 5) ? 2010 : 2000;
 		}
 	}
 	
